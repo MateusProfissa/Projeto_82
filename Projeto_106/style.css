@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Special Elite", cursive;
+}
+.hearder_div {
+    background:rgb(43, 41, 41);
+}
+.hearder_div p {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.main_div button {
+    font-family: "Roboto", sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.footer {
+    background-color: rgb(43, 41, 41);
+    color: white;
+    font-size: 18px;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-shadow: 5px 5px 5px rgb(209, 207, 207);
+}

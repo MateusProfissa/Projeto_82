@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"> </script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reconhecimento de Animais </title>
+</head>
+<body>
+    <script src="main.js"></script>
+    <div class="col-xs12 hearder_div text-center">
+        <h2> Sons de Animais </h2>
+        <p>Obs: Reproduza seguintes palavras como:
+           <b> Cachorro, 
+            Gato, 
+            Lobo, 
+            Capivara </b>
+            para mostrar suas imagens.
+        </p>
+
+    </div>
+    <div class="main_div">
+        <center>
+            <br>
+            <button class="btn btn-warning" onclick="startClassification()"> Iniciar</button>
+            <h3 id="resultado_nome"> Posso ouvir: </h3>
+            <h4 id="resultado_precisão"> Precisão: </h4>
+
+            <br>
+
+            <img src="listen.gif" id="ouvido" width="300" height="300">
+        </center>
+    </div>
+    <div class="footer"><center> Desenvolvido por: Mateus Motta Pereira </center></div>
+</body>
+</html>
